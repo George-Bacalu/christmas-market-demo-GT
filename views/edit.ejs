@@ -1,0 +1,9 @@
+<%- include("partials/header") %>
+
+  <h1 class="my-3">Edit product</h1>
+  <form action="/products/<%= product.id %>?_method=PUT" method="POST" class="my-4">
+    <%- include("_form_fields") %>
+  </form>
+  </div>
+
+  <%- include("partials/footer") %>

@@ -1,0 +1,15 @@
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary">Save</button>
+
+<div class="form-group my-3">
+  <label for="title" class="form-label">Product title</label>
+  <input type="text" class="form-control" id="title" name="title" placeholder="Enter title" value="<%= product.title %>" required />
+</div>
+<div class="form-group my-3">
+  <label for="image" class="form-label">Product image</label>
+  <input type="text" class="form-control" id="image" name="image" placeholder="Enter image url" value="<%= product.image %>" required />
+</div>
+<div class="form-group my-3">
+  <label for="description" class="form-label">Product description</label>
+  <textarea class="form-control" id="description" name="description" placeholder="Enter description" rows="5" required><%= product.description %></textarea>
+</div>
